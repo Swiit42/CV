@@ -1,0 +1,7 @@
+.background-img{
+    background-image: url(../images/wood.png);
+    height: 300px;
+}
+.content{
+    background-color: darkgrey;
+}
