@@ -1,36 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>Oleksandr Tymoshenko</title>
 </head>
 
 <body>
-    <nav class="navbar right sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar right sticky-top navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">A Propos </a>
+                    <a class="nav-link" href="#about">A Propos </a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Compétences</a>
+                    <a class="nav-link" href="#skills">Compétences</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Parcours</a>
+                    <a class="nav-link" href="#parcours">Parcours</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Hobbies</a>
+                    <a class="nav-link" href="#hobbies">Hobbies</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -39,103 +42,243 @@
         <div class="col-8 p-5">
             <p class="h1">Oleksandr Tymoshenko</p>
             <p class="display-4">Developpeur Web Junior</p>
-            <p>text de presentation blablablablablablablalbalbablbalblalbal</p>
+            <p></p>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid mt-4 mb-4">
+        <h2 id="about">A propos de moi</h2>
         <div class="row justify-content-around">
             <div class="col-2">
                 <img src="" alt="">
                 <ul class="list-group list-group-flush">
+                    <img id="sacha_photo" src="images/sacha.png" alt="">
                     <li class="list-group-item">Nom : Oleksandr</li>
                     <li class="list-group-item">Age : 23ans</li>
                     <li class="list-group-item">Ville : Lille</li>
                 </ul>
                 <button href="" type="button" class="btn btn-primary">Telecharger mon CV</button>
             </div>
-            <div class="col-7">
-                <h2 id="about">A propos de moi :</h2>
+            <div class="col-7 pt-5">
                 <p>Oleksandr Tymoshenko, (Sacha pour les intimes),
                     Jeune développeur Web passionné par le développement. Je suis arrivé en France a l'âge de 9 ans donc
                     j'ai une parfaite maîtrise du français, mais aussi l'Ukrainien et le Russe natif. Ayant fait une
                     Licence en Anglais-Russe, j'ai une bonne maîtrise de l'Anglais et des notions d'Espagnol. Ma
                     maîtrise des langues cependant n'est pas suffisante pour moi, c'est une des raisons pour lesquelles
                     je me suis dirigé vers les languages informatiques. Etant plus concrets et plus logiques, les
-                    languages de developpeur me permetteront de comprendre les programmes et les applications en plus de
-                    personnes de differentes provenances.<br>
-                    Passions Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet diam pellentesque,
-                    finibus metus venenatis, pharetra enim. Vestibulum et orci sit amet odio laoreet vulputate et sed
-                    enim. Sed semper sed neque ac mattis. Sed pretium est a magna suscipit condimentum. Aliquam congue
-                    ex in augue feugiat cursus. Pellentesque venenatis arcu sit amet mauris scelerisque, vitae dapibus
-                    lorem luctus. Nullam mattis condimentum semper. Sed id bibendum elit. Integer ornare leo sit amet
-                    porttitor aliquet. In sodales et mi quis faucibus. Proin porta arcu sem, non egestas enim pharetra
-                    eu. Fusce aliquet purus libero, eu varius lacus scelerisque in. Suspendisse pellentesque
-                    sollicitudin felis sed vulputate. Aenean dictum egestas eros. Pellentesque nec augue semper, commodo
-                    diam at, ornare velit. </p>
+                    languages de developpeur me permetteront de comprendre les programmes et les applications. <br>
+                </p>
             </div>
         </div>
-        <section class="content p-3">
-            <div class="row">
-                <div class="col-9 shadow-sm p-3 m-3 bg-white rounded float-left mx-auto">
-                    <h3>Front/Back-end</h3>
-                    <div class="d-flex justify-content-around">
-                    <img src="images/html.png" alt="">
-                    <img src="images/css.png" alt="">
-                    <img src="images/js.png" alt="">
-                    <img src="images/ruby.png" alt="">
-                    <img src="images/php.png" alt="">
-                    <img src="images/mysql.png" alt="">
-                    <img src="images/linux.png" alt="">
-                  </div>
-                </div>
-                <div class="col-2 float-right p-3 m-3">
-                    <img src="images/code.png" alt="">
-                </div>
-		<div class="col-2 float-right p-3 m-3">
-                	<img src="images/design.png" alt="">
-		</div>
-                <div class="col-9 shadow-sm p-3 m-3 bg-white rounded mx-auto">
-                    <h3>Design</h3>
-                    <div class="d-flex justify-content-around">
-                    <img src="images/figma.png" alt="">
-                    <img src="images/wp.png" alt="">
-                    <img src="images/canva.png" alt="">
-                    <img src="images/responsive.png" alt="">
-                  </div>
-                </div>
-                <div class="col-9 shadow-sm p-3 m-3 bg-white rounded float-left mx-auto">
-                    <h3>Gestion de projet</h3>
-                    <div class="d-flex justify-content-around">
-                    <img src="images/git.png" alt="">
-                    <img src="images/github.png" alt="">
-                    <img src="images/trello.png" alt="">
-                    <img src="images/agile.png" alt="">
-                  </div>
-                </div>
-		<div class="col-2 float-right p-3 m-3">
-                	<img src="images/projet.png" alt="">
-		</div>
-		<div class="col-2 float-right p-3 m-3">
-	                <img src="images/langue.png " alt="">
-		</div>
-                <div class="col-9 shadow-sm p-3 m-3 bg-white rounded float-right mx-auto">
-                    <h3>Mes langues</h3>
-                    <div class="d-flex justify-content-around">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                  </div>
+    </div>
+    <section class="box overflow-hidden p-3">
+        <h2 id="skills">Compétences</h2>
+        <div class="row">
+            <div data-aos="fade-up-right" data-aos-duration="500"
+                class="col-9 shadow p-3 m-3 mt-5 mb-5 bg-white rounded float-left mx-auto">
+                <h3>Front/Back-end</h3>
+                <div class="d-flex align-items-center justify-content-around">
+                    <img class="blacknwhite" src="images/html.png" alt="Logo HTML">
+                    <img class="blacknwhite" src="images/css.png" alt="Logo CSS">
+                    <img class="blacknwhite" src="images/js.png" alt="Logo JavaScript">
+                    <img class="blacknwhite" src="images/ruby.png" alt="Logo Ruby">
+                    <img class="blacknwhite" src="images/php.png" alt="Logo Php">
+                    <img class="blacknwhite" src="images/mysql.png" alt="Logo MySql">
+                    <img class="blacknwhite" src="images/linux.png" alt="Logo Linux">
                 </div>
             </div>
-        </section>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-            crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
+            <div class="col-2 float-right p-3 m-3 mt-5 mb-5">
+                <img src="images/code.png" alt="">
+            </div>
+            <div class="col-2 float-right p-3 m-3 mt-5 mb-5">
+                <img src="images/design.png" alt="">
+            </div>
+            <div data-aos="fade-up-left" data-aos-duration="1000"
+                class="col-9 shadow p-3 m-3 mt-5 mb-5     bg-white rounded mx-auto">
+                <h3>Design</h3>
+                <div class="d-flex align-items-center justify-content-around">
+                    <img class="blacknwhite" src="images/figma.png" alt="">
+                    <img class="blacknwhite" src="images/wp.png" alt="">
+                    <img class="blacknwhite" src="images/canva.png" alt="">
+                    <img class="blacknwhite" src="images/responsive.png" alt="">
+                </div>
+            </div>
+            <div data-aos="fade-up-right" data-aos-duration="1500"
+                class="col-9 shadow p-3 m-3 mt-5 mb-5 bg-white rounded float-left mx-auto">
+                <h3>Gestion de projet</h3>
+                <div class="d-flex align-items-center justify-content-around">
+                    <img class="blacknwhite" src="images/git.png" alt="">
+                    <img class="blacknwhite" src="images/github.png" alt="">
+                    <img class="blacknwhite" src="images/trello.png" alt="">
+                    <img class="blacknwhite" src="images/agile.png" alt="">
+                </div>
+            </div>
+            <div class="col-2 float-right p-3 m-3 mt-5 mb-5">
+                <img src="images/projet.png" alt="">
+            </div>
+            <div class="col-2 float-right p-3 m-3 mt-5 mb-5">
+                <img src="images/langue.png " alt="">
+            </div>
+            <div data-aos="fade-up-left" data-aos-duration="1500"
+                class="col-9 shadow p-3 m-3 mt-5 mb-5 bg-white rounded ">
+                <h3>Mes langues</h3>
+                <div class="d-flex justify-content-around">
+                    <div class="contain_hover">
+                        <img class="frlang" src="images/frflag.png" alt="">
+                        <div class="overlay">
+                            <div class="text">Je suis arrivé en France à l'âge de 9 ans</div>
+                        </div>
+                    </div>
+                    <div class="contain_hover">
+                        <img id="ukflag" src="images/ukflag.png" alt="">
+                        <div class="overlay">
+                            <div class="text">J'ai fait une Licence en Anglais</div>
+                        </div>
+                    </div>
+                    <div class="contain_hover">
+                        <img src="images/uaflag.png" alt="">
+                        <div class="overlay">
+                            <div class="text">L'Ukrainien est ma langue native </div>
+                        </div>
+                    </div>
+                    <div class="contain_hover">
+                        <img src="images/ruflag.png" alt="">
+                        <div class="overlay">
+                            <div class="text">Le Russe est une langue souvent parlée en Ukraine</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="box1">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-11 offset-md">
+                    <h2 id="parcours" >Parcours</h2>
+                    <ul class="timeline">
+                        <li data-aos="fade-left" data-aos-duration="1300" id="popschool" class="col rounded shadow p-4">
+                            <h3 class="popschool">Formation Pop School</h3>
+                            <p class="float-right">Septembre - Decembre 2020</p><br><br>
+                            <span class="italic">Anzin, Popschool</span><br><br>
+                            <p>Découverte des languages du Web (HTML, CSS, JavaScript, Php, Ruby, MySql) </p>
+                            <p>Et de leurs framework ( Rails, Laravel, Bootstrap)</p>
+                            <p>Confection d’un site sous WordPress, utilisation de plug-in Elementor </p>
+                            <p>Prise en main de differents outils collaboratifs (Trello, Figma, GitHub, Slack) </p>
+                            <p>Découverte de l’environnement de travail (Linux, LAMP, Git, VS Code)</p>
+                            <p>Réalisations de projets en groupe</p>
+                            <p>Initiation au maquettage, l’UI/UX, User story, personna, réferencement</p>
+                        </li>
+                        <li data-aos="fade-left" data-aos-duration="1300" id="serveur" class="col rounded shadow p-4">
+                            <h3 class="serveur">Emploi Serveur</h3>
+                            <p class="float-right">Juin - Septembre 2019/2020</p><br><br>
+                            <span class="italic">Café Society, Lille</span><br><br>
+                            <p>Prise et execution des commandes de clients</p>
+                            <p>Favoriser la relation avec le clientq/p>
+                            <p>Gestion des stock et des commandes </p>
+                            <p>Entretien de locaux</p>
+                        </li>
+                        <li data-aos="fade-left" data-aos-duration="1300" id="licence" class="col rounded shadow p-4">
+                            <h3 class="licence">Licence 3, Langues étangères appliquées Anglais - Russe</h3>
+                            <p class="float-right">Septembre - Juillet 2015/2020</p><br><br>
+                            <span class="italic">UFR Langues étrangères appliquées, Roubaix</span><br><br>
+                            <p>Approfondissement de l’anglais et du russe</p>
+                            <p>Bases du Marketing, Comptabilité et Management</p>
+                            <p>Découverte de l’HTML et du CSS</p>
+                        </li>
+                        <li data-aos="fade-left" data-aos-duration="1300" id="erasmus" class="col rounded shadow p-4">
+                            <h3 class="erasmus">Echange Erasmus</h3>
+                            <p class="float-right">Janvier - Juin 2018</p><br><br>
+                            <span class="italic">Radboud Universiteit, Nimègue, Pays-Bas</span><br><br>
+                            <p>Découverte des humanités digitales </p>
+                            <p>Etudes sociales du transhumanisme </p>
+                            <p>Impact dans la culture de l’IA et du Deep Learning</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="my-5"id="portfolio">Portfolio</h2>
+        <div class="d-flex justify-content-around flex-wrap">
+            <div class="porfolio_img mb-5">
+                <a href=""><img src="images/runzik_portfolio.png" alt=""></a>
+            </div>
+            <div class="porfolio_img mb-5">
+                <a href=""><img src="images/servdrone_portfolio.png" alt=""></a>
+            </div>
+            <div class="porfolio_img">
+                <a href=""><img src="images/numeriquelles_portfolio.png" alt=""></a>
+            </div>
+            <div class="porfolio_img">
+                <a href=""><img src="images/svprint_portfolio.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="my-5" id="hobbies">Hobbies</h2>
+        <div class="d-flex justify-content-around flex-wrap">
+            <div class="contain_hobbies m-2">
+                <img src="images/bass.png" alt="">
+                <div class="overlay">
+                    <div class="text">Je joue de la Basse depuis une plus d'un an.</div>
+                </div>
+            </div>
+            <div class="contain_hobbies m-2">
+                <img src="images/mushroom.png" alt="">
+                <div class="overlay">
+                    <div class="text">La Mycologie, me fascine, c'est un monde très peu connu qui a beaucoup de choses a apporter à l'Homme.</div>
+                </div>
+            </div>
+            <div class="contain_hobbies m-2">
+                <img src="images/cocktails.png" alt="">
+                <div class="overlay">
+                    <div class="text">Anciennemment Barman, la création de nouvelles saveurs, l'histoire, l'évolution et les savoirs faire des alcools au fil des années m'a toujours interessé. Ce n'est pas qu'une boisson mais un Art a parte entière.</div>
+                </div>
+            </div>
+            <div class="contain_hobbies m-2">
+                <img src="images/sculpture.png" alt="">
+                <div class="overlay">
+                    <div class="text">Pendant mes heures perdues je sculpte des petites statuettes, personages, ou objets divers. Une activité qui réunit patience, précision et relaxation.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <h2 class="my-5"id="contact">Contact</h2>
+        <div class="d-flex flex-wrap">
+            <div class="col-6 mb-5">
+                <img class="float-left m-4" src="images/tel.png" alt="">
+                <p class="mt-5 ml-3">07 82 50 07 78</p>
+            </div>
+            <div class="col-6">
+                <img class="float-left m-4" src="images/mail.png" alt="">
+                <p class="mt-5 ml-3">sacha.tymoshenko@gmail.com</p>
+            </div>
+            <div class="col-6 pt-1">
+                <img class="ml-2" src="images/gitcontact.png" alt="">
+                <a href="https://github.com/Swiit42" class="ml-3">Swiit42</a>
+            </div>
+            <div class="col-6">
+                <img class="ml-4" src="images/linkedin.png" alt="">
+                <a href="https://www.linkedin.com/in/oleksandr-tymoshenko-356407188/" class="ml-3">Oleksandr Tymoshenko</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN mt-5 mb-5/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

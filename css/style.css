@@ -1,7 +1,188 @@
+/**** Jumbotron ****/
 .background-img{
     background-image: url(../images/wood.png);
-    height: 300px;
+    height: 500px;
 }
-.content{
-    background-color: darkgrey;
+
+.box{
+    background-color: #e5e5e5;
 }
+.navbar{
+    background-color: rgba(196, 196, 196, 80%)
+}
+.italic{
+    font-style: italic;
+}
+h2,
+h3{
+    text-align: center;
+}
+.blacknwhite {
+    filter: grayscale(100%);
+    display: block;
+} 
+.blacknwhite:hover{
+        filter: grayscale(0%);
+        display: block;
+    } 
+
+#sacha_photo{
+    width: 187px;
+    border-radius: 45px;
+    margin-bottom: 20px;
+}
+/**** Timeline ****/ 
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 30px 56px;
+    padding-left: 20px;
+    background-color: #eeeeee;
+}
+ul.timeline > #popschool:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid #90BE6D;
+    left: -105px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+    top: 22px;
+
+}
+ul.timeline > #serveur:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid #F8961E;
+    left: -105px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+    top: 22px;
+
+}
+ul.timeline > #licence:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid #43AA8B;
+    left: -105px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+    top: 22px;
+}
+ul.timeline > #erasmus:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid #F94144;
+    left: -105px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+    top: 22px;
+}
+/**** Hover text ****/
+.contain_hover {
+    position: relative;
+  }
+.contain_hover img{
+      width: 130px;
+  }
+#ukflag{
+    width: 130px;
+    margin-top: 15px;
+}
+  
+.frlang {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  }
+  
+  .contain_hover:hover .overlay {
+    opacity: 0.6;
+  }
+  
+  .text {
+    width: 90%;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /**** Competences ****/ 
+.popschool{
+    color: #90BE6D;
+}
+.serveur{
+    color: #F8961E;
+}
+.licence{
+    color: #43AA8B;
+}
+.erasmus{
+    color: #F94144;
+}
+footer{
+    background-color: darkgray;
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+}
+.porfolio_img img{
+    width: 450px;
+}
+
+/**** Hobbies ****/
+.contain_hobbies {
+    position: relative;
+  }
+.contain_hobbies img{
+      width: 300px;
+  }
+  .contain_hobbies:hover .overlay {
+    opacity: 0.7;
+  }
